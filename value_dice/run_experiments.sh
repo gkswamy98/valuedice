@@ -14,14 +14,15 @@
 
 #!/bin/bash
 
-declare -a env_names=("AntBulletEnv-v0")
+declare -a env_names=("$1")
 
 expert_dir="./datasets/"
 save_dir="./save/"
+mkdir "../pillbox/learners/$1"
 
 for env_name in "${env_names[@]}"
 do
-  for ((seed=0;seed<1;seed+=1))
+  for ((seed=0;seed<10;seed+=1))
   do
     for ((nt=1;nt<6;nt+=1))
     do
