@@ -54,7 +54,7 @@ flags.DEFINE_float('tau', 0.005,
                    'Soft update coefficient for the target network.')
 flags.DEFINE_integer('hidden_size', 256, 'Hidden size.')
 flags.DEFINE_integer('updates_per_step', 5, 'Updates per time step.')
-flags.DEFINE_integer('max_timesteps', int(1e3) + 1, 'Max timesteps to train.')
+flags.DEFINE_integer('max_timesteps', int(1e5) + 1, 'Max timesteps to train.')
 flags.DEFINE_integer('num_trajectories', 1, 'Number of trajectories to use.')
 flags.DEFINE_integer('num_random_actions', int(1e3),
                      'Fill replay buffer with N random actions.')

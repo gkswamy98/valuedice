@@ -1,23 +1,42 @@
 name: valuedice
 channels:
+  - anaconda
   - defaults
 dependencies:
-  - ca-certificates=2020.12.8=hecd8cb5_0
-  - certifi=2020.12.5=py37hecd8cb5_0
+  #- ca-certificates=2020.12.8=hecd8cb5_0
+  #- certifi=2020.12.5=py37hecd8cb5_0
   - libcxx=10.0.0=1
-  - libedit=3.1.20191231=h1de35cc_1
-  - libffi=3.3=hb1e8313_2
-  - ncurses=6.2=h0a44026_1
-  - openssl=1.1.1i=h9ed2024_0
-  - pip=20.3.3=py37hecd8cb5_0
-  - python=3.7.9=h26836e1_0
-  - readline=8.0=h1de35cc_0
-  - setuptools=51.0.0=py37hecd8cb5_2
-  - sqlite=3.33.0=hffcf06c_0
-  - tk=8.6.10=hb0a8c7a_0
+  #- libedit=3.1.20191231=h1de35cc_1
+  #- libffi=3.3=hb1e8313_2
+  #- ncurses=6.2=h0a44026_1
+  #- openssl=1.1.1i=h9ed2024_0
+  #- pip=20.3.3=py37hecd8cb5_0
+  #- python=3.7.9=h26836e1_0
+  #- readline=8.0=h1de35cc_0
+  #- setuptools=51.0.0=py37hecd8cb5_2
+  #- sqlite=3.33.0=hffcf06c_0
+  #- tk=8.6.10=hb0a8c7a_0
   - wheel=0.36.2=pyhd3eb1b0_0
-  - xz=5.2.5=h1de35cc_0
-  - zlib=1.2.11=h1de35cc_3
+  #- xz=5.2.5=h1de35cc_0
+  #- zlib=1.2.11=h1de35cc_3
+  - backcall=0.2.0=py_0
+  - ca-certificates=2020.10.14=0
+  - certifi=2020.6.20=py37_0
+  - decorator=4.4.2=py_0
+  - jedi=0.17.2=py37_0
+  - jupyter_client=6.1.7=py_0
+  - jupyter_core=4.6.3=py37_0
+  #- libcxx=10.0.0=1
+  - parso=0.7.0=py_0
+  - pexpect=4.8.0=py37_0
+  - pickleshare=0.7.5=py37_0
+  - prompt-toolkit=3.0.8=py_0
+  - ptyprocess=0.6.0=py37_0
+  - pygments=2.7.1=py_0
+  - python-dateutil=2.8.1=py_0
+  - six=1.15.0=py_0
+  - traitlets=5.0.5=py_0
+  - wcwidth=0.2.5=py_0  
   - pip:
     - absl-py==0.11.0
     - astor==0.8.1
