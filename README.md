@@ -6,9 +6,14 @@ To install dependencies, run:
 ```bash
 conda env create -f environment.yml
 ```
+To download expert data, run:
+```bash
+cd ..
+git clone https://github.com/gkswamy98/pillbox.git
+```
 
 ## Running Experiments
-To train an expert, run:
+To train a learner:
 ```bash
 ./value_dice/run_experiments.sh "env_name"
 ```
