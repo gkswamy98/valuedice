@@ -22,9 +22,9 @@ mkdir "../pillbox/learners/$1"
 
 for env_name in "${env_names[@]}"
 do
-  for ((seed=0;seed<10;seed+=1))
+  for ((seed=0;seed<5;seed+=1))
   do
-    for ((nt=1;nt<6;nt+=1))
+    for ((nt=5;nt<26;nt+=5))
     do
       echo $nt
       python -m value_dice.train_eval \
